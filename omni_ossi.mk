@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2025 The Android Open Source Project
-# Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2026 The Android Open Source Project
+# Copyright (C) 2026 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -24,6 +24,6 @@ PRODUCT_MANUFACTURER := oplus
 PRODUCT_GMS_CLIENTID_BASE := android-oplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="hal_mgvi_64_64only_armv82-user 15 AP3A.240617.008 1763036927577 release-keys"
+    PRIVATE_BUILD_DESC="hal_mgvi_64_64only_armv82-user 15 AP3A.240617.008 1778248299290 release-keys"
 
-BUILD_FINGERPRINT := oplus/ossi/ossi:15/AP3A.240617.008/1763036927577:user/release-keys
+BUILD_FINGERPRINT := oplus/ossi/ossi:15/AP3A.240617.008/1778248299290:user/release-keys
