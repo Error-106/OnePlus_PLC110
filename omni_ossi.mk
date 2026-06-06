@@ -9,8 +9,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit from PBRP-common stuff, if building PBRP.
+$(call inherit-product-if-exists, vendor/pb/config/common.mk)
+
+# Inherit from TWRP-common stuff, if building TWRP.
+$(call inherit-product-if-exists, vendor/twrp/config/common.mk)
 
 # Inherit from ossi device
 $(call inherit-product, device/oplus/ossi/device.mk)
